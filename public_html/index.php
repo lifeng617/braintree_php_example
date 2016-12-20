@@ -16,7 +16,7 @@
                 </p>
             </header>
 
-            <form method="post" id="payment-form" action="/checkout.php">
+            <form method="post" id="payment-form" action="/viewnonce.php">
                 <section>
                     <div class="bt-drop-in-wrapper">
                         <div id="bt-dropin"></div>
