@@ -3,6 +3,8 @@
 require_once("../includes/braintree_init.php");
 require_once("../includes/rest.php");
 
+header('Content-Type: application/json');
+
 $customer_id = 'vincenttestcustomer';
 
 $params['id'] = $customer_id;

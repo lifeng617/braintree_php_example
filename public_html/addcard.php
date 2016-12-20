@@ -2,6 +2,7 @@
 require_once("../includes/braintree_init.php");
 require_once("../includes/rest.php");
 
+header('Content-Type: application/json');
 
 function object2array($object) {
 	$array = (array) $object;
